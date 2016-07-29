@@ -27,12 +27,13 @@ DepDescs = [
 {config,           "config",           "60977f81dc06af4a3d1e89891b3061ed4cd01e95"},
 %% keep these sorted
 {b64url,           "b64url",           "6895652d80f95cdf04efb14625abed868998f174"},
-{couch_log,        "couch-log",        "741d48c94a10469d2e0283acbee7592e82a992ab"},
-{chttpd,           "chttpd",           "5b6d1b1dc2809af464fc11385d558631593f0614"},
-{couch,            "couch",            "a128c2cc6a3731e4c1824553252442cd18173e36"},
+{couch_log,        "couch-log",        "cc5540419e0a4bb7872d18bc5a94f39446d83a88"},
+{couch_log_lager,  "couch-log-lager",  "a7a8b7efb8855a8b0cf9612eeca7c190c414bbfb"},
+{chttpd,           "chttpd",           "5e3bf1f5e2e96841ce0d2b26606c7f590c067bdc"},
+{couch,            "couch",            "ac3dae37da1e44dfba6fbed8ec11fa1c6779ee33"},
 {couch_index,      "couch-index",      "e7d269800302224eacf9585f74eb30822495755b"},
-{couch_mrview,     "couch-mrview",     "157132c6e603b1870a08c04e8459a177387932ed"},
-{couch_replicator, "couch-replicator", "05247a26019ce5416e13ef80a12c307bdc790ee4"},
+{couch_mrview,     "couch-mrview",     "3ce28641c85af0d5054df47e9ac7de917a9d33cd"},
+{couch_replicator, "couch-replicator", "bf636d3088e39e392517117e4e5ed4e22f8f7e34"},
 {couch_plugins,    "couch-plugins",    "3e73b723cb126cfc471b560d17c24a8b5c540085"},
 {couch_event,      "couch-event",      "835a41885d1e276d207758954f8238aa7bba0ae8"},
 {couch_stats,      "couch-stats",      "7895d4d3f509ed24f09b6d1a0bd0e06af34551dc"},
@@ -45,6 +46,7 @@ DepDescs = [
 {fauxton,          "fauxton",          {tag, "v1.1.5"}, [raw]},
 {folsom,           "folsom",           "a5c95dec18227c977029fbd3b638966d98f17003"},
 {global_changes,   "global-changes",   "203fb088ed81149108e64d18ffd9c3f5df154f97"},
+{goldrush,         "goldrush",         {tag, "0.1.6"}},
 {ibrowse,          "ibrowse",          "4af2d408607874d124414ac45df1edbe3961d1cd"},
 {ioq,              "ioq",              "c7c75ebeaf41599e3a3e211097d864f0e7785829"},
 {jiffy,            "jiffy",            "d3c00e19d8fa20c21758402231247602190988d3"},
@@ -56,7 +58,8 @@ DepDescs = [
 {rexi,             "rexi",             "a327b7dbeb2b0050f7ca9072047bf8ef2d282833"},
 {snappy,           "snappy",           "a728b960611d0795025de7e9668d06b9926c479d"},
 {setup,            "setup",            "b9e1f3b5d5a78a706abb358e17130fb7344567d2"},
-{meck,             "meck",             {tag, "0.8.2"}}
+{meck,             "meck",             {tag, "0.8.2"}},
+{dreyfus,           {url, "https://github.com/cloudant-labs/dreyfus"}, "2356160ee392ef6af94afac488d7221eb2f08651"}
 ],
 
 BaseUrl = "https://git-wip-us.apache.org/repos/asf/",
